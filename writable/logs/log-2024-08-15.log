@@ -1,0 +1,472 @@
+CRITICAL - 2024-08-15 12:39:48 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 172.
+ 1 APPPATH\Controllers\Main.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 172)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 12:48:52 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 175.
+ 1 APPPATH\Controllers\Main.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 12:51:59 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 175.
+ 1 APPPATH\Controllers\Main.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 13:01:27 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 175.
+ 1 APPPATH\Controllers\Main.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 13:09:53 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 175.
+ 1 APPPATH\Controllers\Main.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 13:10:19 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 175.
+ 1 APPPATH\Controllers\Main.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 13:31:45 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 172.
+ 1 APPPATH\Controllers\Main.php(172): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 172)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 13:32:44 --> ErrorException: Attempt to read property "id" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 181.
+ 1 APPPATH\Controllers\Main.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 181)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 13:58:01 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 175.
+ 1 APPPATH\Controllers\Main.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 13:58:15 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 175.
+ 1 APPPATH\Controllers\Main.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 13:58:19 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 175.
+ 1 APPPATH\Controllers\Main.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 13:58:35 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 175.
+ 1 APPPATH\Controllers\Main.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 13:59:16 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 175.
+ 1 APPPATH\Controllers\Main.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 14:10:55 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 175.
+ 1 APPPATH\Controllers\Main.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 14:10:59 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 175.
+ 1 APPPATH\Controllers\Main.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 14:11:02 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 175.
+ 1 APPPATH\Controllers\Main.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 14:11:23 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 175.
+ 1 APPPATH\Controllers\Main.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 14:11:39 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 175.
+ 1 APPPATH\Controllers\Main.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 14:15:39 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 175.
+ 1 APPPATH\Controllers\Main.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 14:18:40 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 175.
+ 1 APPPATH\Controllers\Main.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 14:24:27 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 175.
+ 1 APPPATH\Controllers\Main.php(175): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 175)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 14:31:14 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 179.
+ 1 APPPATH\Controllers\Main.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 179)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 14:34:16 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 179.
+ 1 APPPATH\Controllers\Main.php(179): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 179)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 14:37:49 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 173.
+ 1 APPPATH\Controllers\Main.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 14:38:05 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 173.
+ 1 APPPATH\Controllers\Main.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 16:31:27 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 173.
+ 1 APPPATH\Controllers\Main.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 16:32:32 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 173.
+ 1 APPPATH\Controllers\Main.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 16:42:05 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 173.
+ 1 APPPATH\Controllers\Main.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 17:13:53 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 173.
+ 1 APPPATH\Controllers\Main.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 17:14:11 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 173.
+ 1 APPPATH\Controllers\Main.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 17:15:45 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 173.
+ 1 APPPATH\Controllers\Main.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 17:17:47 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 173.
+ 1 APPPATH\Controllers\Main.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 17:18:37 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 173.
+ 1 APPPATH\Controllers\Main.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 17:19:01 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 173.
+ 1 APPPATH\Controllers\Main.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 17:20:39 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 177.
+ 1 APPPATH\Controllers\Main.php(177): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 177)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 17:22:35 --> ErrorException: Attempt to read property "id" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 182.
+ 1 APPPATH\Controllers\Main.php(182): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 182)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 17:29:06 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 173.
+ 1 APPPATH\Controllers\Main.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 17:48:41 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 173.
+ 1 APPPATH\Controllers\Main.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 17:49:26 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 173.
+ 1 APPPATH\Controllers\Main.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 17:50:00 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 173.
+ 1 APPPATH\Controllers\Main.php(173): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 173)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 17:59:55 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 169.
+ 1 APPPATH\Controllers\Main.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 169)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-15 18:16:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-15 18:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-15 18:16:32 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 169.
+ 1 APPPATH\Controllers\Main.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 169)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 18:18:22 --> ErrorException: Undefined variable $Gqt7npbWrSYWAaFCorJjQeD8tS20G4tcgXxpPtd7qnn9DPvlnVEnW
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 169.
+ 1 APPPATH\Controllers\Main.php(169): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $Gqt7npbWrSYWAaFCorJjQeD8tS20G4tcgXxpPtd7qnn9DPvlnVEnW', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 169)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 18:19:13 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 165.
+ 1 APPPATH\Controllers\Main.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 165)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-08-15 18:21:19 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 165.
+ 1 APPPATH\Controllers\Main.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 165)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-15 18:21:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-15 18:21:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-08-15 18:21:29 --> ErrorException: Attempt to read property "senha" on array
+[Method: POST, Route: login_submit]
+in APPPATH\Controllers\Main.php on line 165.
+ 1 APPPATH\Controllers\Main.php(165): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "senha" on array', 'C:\\laragon\\www\\framework\\app\\Controllers\\Main.php', 165)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Main->login_submit()
+ 3 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Main))
+ 4 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-08-15 18:22:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-15 18:22:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-15 18:23:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-15 18:23:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-15 18:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-15 18:23:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-15 18:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-08-15 18:23:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

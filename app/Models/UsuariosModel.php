@@ -9,7 +9,7 @@ class UsuariosModel extends Model
     protected $table            = 'usuarios';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
-    protected $returnType       = 'array';
+    protected $returnType       = 'object';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
     protected $allowedFields    = ['nome', 'cpf', 'bairro', 'telefone', 'email', 'opcao', 'sugestao'];

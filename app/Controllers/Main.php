@@ -11,6 +11,12 @@ class Main extends BaseController
 {
     public function index()
     {
+
+     // check if there is an active session
+     if(session()->has('id')) {
+        return redirect()->to('/admin');
+    }
+
      // main page
      $data = [];
 
@@ -106,7 +112,7 @@ class Main extends BaseController
     {
         // check if there is an active session
         if(session()->has('id')) {
-            return redirect()->to('/');
+            return redirect()->to('/admin');
         }
 
         $data = [];
@@ -181,7 +187,7 @@ class Main extends BaseController
         session()->set($session_data);
 
         // redirect to home page
-        return redirect()->to('/');
+        return redirect()->to('/admin');
         
     }
 
@@ -193,4 +199,125 @@ class Main extends BaseController
         // redirect to main page
         return redirect()->to('/login');
     }
+
+    public function admin() 
+    {
+        $data = [];
+
+        $usuarios_model = new UsuariosModel();
+        $data['usuarios'] = $usuarios_model->findAll();
+        $data['datatables'] = true;
+ 
+        return view('admin', $data);
+    }
+
+    // public function search()
+    // {
+    //     $data = [];
+
+    //     // get search items
+    //     $search_term = $this->request->getPost('text_search');
+
+    //     // load usuários from database and the search term
+    //     $usuarios_model = new UsuariosModel();
+    //     $data['usuarios'] = $usuarios_model->where('id', session()->id)->like('nome', $search_term)->findAll();
+    //     $data['datatables'] = true;
+
+    //     return view('admin', $data);
+    // }
+
+    public function usuario_details($enc_id) 
+    {
+        // decrypt usuario id
+        $usuario_id = decrypt($enc_id);
+        if(!$usuario_id) {
+            return redirect()->to('/');
+        }
+
+        // load usuario data
+        $usuarios_model = new UsuariosModel();
+        $usuario_data = $usuarios_model->where('id', $usuario_id)->first();
+        if(!$usuario_data) {
+            return redirect()->to('/');
+        }
+
+        // display usuario
+        $data['usuario'] = $usuario_data;
+
+        return view('usuario_details', $data);
+    }
+
+    public function create_pdf_report()
+    {
+       // get usuarios
+        $usuarios_model = new UsuariosModel();
+        $usuarios = $usuarios_model->findAll();
+         
+        // generate PDF file
+        $pdf = new \Mpdf\Mpdf([
+            'mode' => 'utf-8',
+            'format' => 'A4',
+            'orientation' => 'P'
+        ]);
+
+        // set starting coordinates
+        $x = 50;    // horizontal
+        $y = 50;    // vertical
+        $html = "";
+
+        // logo and app name
+        $html .= '<div style="position: absolute; left: ' . $x . 'px; top: ' . $y . 'px;">';
+        $html .= '<img src="assets/images/logo_32.png">';
+        $html .= '</div>';
+        $html .= '<h2 style="position: absolute; left: ' . ($x + 50) . 'px; top: ' . ($y - 10) . 'px;">' . APP_NAME . '</h2>';
+
+        // separator
+        $y += 50;
+        $html .= '<div style="position: absolute; left: ' . $x . 'px; top: ' . $y . 'px; width: 700px; height: 1px; background-color: rgb(200,200,200);"></div>';
+
+        // report title
+        $y += 20;
+        $html .= '<h3 style="position: absolute; left: ' . $x . 'px; top: ' . $y . 'px; width: 700px; text-align: center;">REPORT DE DADOS DE ' . date('d-m-Y') . '</h4>';
+
+        // -----------------------------------------------------------
+        // table cidadãos
+        $y += 50;
+
+        $html .= '
+            <div style="position: absolute; left: ' . ($x + 90) . 'px; top: ' . $y . 'px; width: 500px;">
+                <table style="border: 1px solid black; border-collapse: collapse; width: 100%;">
+                    <thead>
+                        <tr>
+                            <th style="width: 60%; border: 1px solid black; text-align: left;">Cidadão</th>
+                        </tr>
+                    </thead>
+                    <tbody>';
+        foreach ($usuarios as $usuario) {
+            $html .=
+                '<tr style="border: 1px solid black;">
+                    <td style="border: 1px solid black;">' . $usuario->nome . 
+                        '<p>CPF: ' . $usuario->cpf . '</p>
+                        <p>Bairro: ' . $usuario->bairro . '</p>
+                        <p>Telefone: ' . $usuario->telefone . '</p>
+                        <p>e-mail: ' . $usuario->email . '</p>
+                        <p>Opção: ' . $usuario->opcao . '</p>
+                        <p>Sugestão: ' . $usuario->sugestao . '</p>
+                    </td>
+                </tr>';
+            $y += 25;
+        }
+
+        $html .= '
+            </tbody>
+            </table>
+            </div>';
+
+        
+        $pdf->WriteHTML($html);
+
+        $pdf->Output();
+
+        exit();
+    }
+
 }

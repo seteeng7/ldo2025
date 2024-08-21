@@ -31,6 +31,7 @@
         </div>
 
         <div class="text-center">
+            <a href="stats" target="_blank" class="btn btn-secondary px-4"><i class="fa-solid fa-chart-simple me-2"></i>Criar Gráfico</a>
             <a href="create_pdf_report" target="_blank" class="btn btn-secondary px-4"><i class="fa-solid fa-file-pdf me-2"></i>Criar Relatório em PDF</a>
         </div>
         

@@ -320,4 +320,17 @@ class Main extends BaseController
         exit();
     }
 
+    public function stats()
+    {
+        $usuarios_model = new UsuariosModel();
+        $data['usuarios'] = $usuarios_model->stats();
+
+        $data['chart_labels'] = $data['usuarios'];
+        $data['chartjs'] = true;
+
+        return view('stats', $data);
+        
+    }
+
+   
 }

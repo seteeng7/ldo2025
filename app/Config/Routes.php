@@ -18,3 +18,5 @@ $routes->post('/processar_frm', 'Main::processar_frm');
 $routes->get('/usuario_details/(:alphanum)', 'Main::usuario_details/$1');
 
 $routes->get('/create_pdf_report', 'Main::create_pdf_report');
+
+$routes->get('/stats', 'Main::stats');

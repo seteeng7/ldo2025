@@ -17,6 +17,9 @@
         <script src="<?= base_url('assets/datatables/jQuery-3.7.0/jquery-3.7.0.min.js') ?>"></script>
       <?php endif; ?>
 
+      <!-- chartjs -->
+      <script src="assets/chartjs/chart.min.js"></script>
+
 </head>
 <body>
 

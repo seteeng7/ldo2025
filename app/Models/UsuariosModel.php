@@ -43,4 +43,17 @@ class UsuariosModel extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+    public function stats() 
+    {
+        
+        $db = \Config\Database::connect();
+        
+        $query = $db->query('SELECT `opcao`, COUNT(`opcao`) AS `total` FROM `usuarios` GROUP BY `opcao`');
+        $rows = $query->getResult();
+
+        return $rows;
+    }
+
+
 }
